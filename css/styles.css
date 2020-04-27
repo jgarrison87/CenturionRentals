@@ -194,8 +194,9 @@ p {
   color: #fff;
 }
 
-h2 .rent-price {
-  background-color: red;
+.rent-price {
+    background-color: rgba(45,64,89, .2);
+  width: 100px;;
 }
 
 /* CTA */
