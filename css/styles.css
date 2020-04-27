@@ -211,14 +211,24 @@ h2 .rent-price {
   margin: 20px;
 }
 
-@media (max-width: 1028px) {
 
-  #title  {
-    text-align: center;
-  }
+@media (max-width: 500px) {
+ 
+  .row-text {
+   width: 100%;
+ }
 
-  .title-image {
-    position: static;
-    transform: rotate(0);
-  }
+ #title {
+   text-align: center;
+ }
+
+ #press {
+   display: none;
+ }
+
+ #cta-text {
+   text-align: center;
+   margin: auto;
+   width: 100%;
+ }
 }
