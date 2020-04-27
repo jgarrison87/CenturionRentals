@@ -54,6 +54,16 @@ p {
   columns: #ffd460;
 }
 
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: #ffd460;
+}
+
 /* Nav Bar */
 
 .navbar {
