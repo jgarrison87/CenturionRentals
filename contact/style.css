@@ -1,0 +1,62 @@
+body {
+  line-height: 1;
+  background-color: #fff;
+  color: #2d4059;
+  font-family: 'Quattrocento', serif;
+}
+
+.contact-header {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #f07b3f; */
+}
+
+.logo {
+  width: 20%;
+  font-size: 1.5rem;
+  padding-left: 10px;
+}
+
+.contact {
+  width: 56%;
+  text-align: left;
+  font-size: 1.5rem;
+  margin-top: 12px;
+}
+
+/* Company */
+
+.company {
+  margin: auto;
+  text-align: center;
+}
+
+.company-info-text {
+  font-weight: bolder;
+}
+
+/* contact form */
+
+.contact-form {
+  width: 50%;
+  margin: auto;
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.contact-form-text {
+  text-align: left;
+}
+
+.form-box{
+  width: 100%;
+}
+
+.btn {
+  width: 20%;
+}
+
+.btn:hover {
+  background-color: darkgray;
+  cursor: pointer;
+}
